@@ -72,6 +72,19 @@
             <Button Grid.Row="3" Grid.Column="3"
         Style="{StaticResource BotaoLaranja}"
         x:Name="subtrair" Text="-" Clicked="subtrair_Clicked"/>
+            
+            <Button Grid.Row="4" Grid.Column="0"
+    Style="{StaticResource BotaoClaro}"
+    x:Name="num1" Text="1" Clicked="num1_Clicked"/>
+            <Button Grid.Row="4" Grid.Column="1"
+    Style="{StaticResource BotaoClaro}"
+    x:Name="num2" Text="2" Clicked="num2_Clicked"/>
+            <Button Grid.Row="4" Grid.Column="2"
+    Style="{StaticResource BotaoClaro}"
+    x:Name="num3" Text="3" Clicked="num3_Clicked"/>
+            <Button Grid.Row="4" Grid.Column="3"
+    Style="{StaticResource BotaoLaranja}"
+    x:Name="somar" Text="+" Clicked="somar_Clicked"/>
 
             <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"
      Style="{StaticResource BotaoClaro}"
@@ -79,7 +92,7 @@
             <Button Grid.Row="5" Grid.Column="2"
      Style="{StaticResource BotaoClaro}"
      x:Name="ponto" Text="." Clicked="ponto_Clicked"/>
-            <Button Grid.Row="4" Grid.Column="3"
+            <Button Grid.Row="5" Grid.Column="3"
      Style="{StaticResource BotaoLaranja}"
      x:Name="igual" Text="=" Clicked="igual_Clicked"/>
 
